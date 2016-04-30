@@ -1,0 +1,60 @@
+*
+  box-sizing: border-box
+
+body
+  font-family: 'Open Sans', sans-serif
+
+.wrapper
+  max-width: 90%
+  width: 750px
+  margin: 0 auto
+
+header
+  display: flex
+  justify-content: space-between
+  .logo
+    h1
+      font-weight: 700
+      text-transform: uppercase
+      color: #252550
+      span
+        font-weight: 300
+        color: #2f2f44
+  nav
+    align-self: center
+    a
+      margin-left: 1em
+      text-decoration: none
+      color: #2f2f44
+    .active
+      //border-bottom: 1px solid
+      color: #252550
+      font-weight: 700
+
+
+.streams
+  padding: 0
+  a
+    text-decoration: none
+
+.item
+  border: 1px solid #d9dee9
+  display: flex
+  padding: 1em
+  border-radius: .25em
+  margin-bottom: 1em
+  .photo, img
+    width: 60px
+  .photo
+    align-self: center
+    margin-right: 2em
+    img
+      border-radius: .25em
+  .info
+    align-self: center
+    h2
+      margin: 0
+      color: #2E9032
+    span
+      color: #6B6B6B
+      font-size: .9em

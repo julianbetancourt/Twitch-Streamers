@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+  max-width: 90%;
+  width: 750px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+header .logo h1 {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #252550;
+}
+
+header .logo h1 span {
+  font-weight: 300;
+  color: #2f2f44;
+}
+
+header nav {
+  align-self: center;
+}
+
+header nav a {
+  margin-left: 1em;
+  text-decoration: none;
+  color: #2f2f44;
+}
+
+header nav .active {
+  color: #252550;
+  font-weight: 700;
+}
+
+.streams {
+  padding: 0;
+}
+
+.streams a {
+  text-decoration: none;
+}
+
+.item {
+  border: 1px solid #d9dee9;
+  display: flex;
+  padding: 1em;
+  border-radius: .25em;
+  margin-bottom: 1em;
+}
+
+.item .photo, .item img {
+  width: 60px;
+}
+
+.item .photo {
+  align-self: center;
+  margin-right: 2em;
+}
+
+.item .photo img {
+  border-radius: .25em;
+}
+
+.item .info {
+  align-self: center;
+}
+
+.item .info h2 {
+  margin: 0;
+  color: #2E9032;
+}
+
+.item .info span {
+  color: #6B6B6B;
+  font-size: .9em;
+}
