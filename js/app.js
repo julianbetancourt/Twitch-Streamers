@@ -1,6 +1,4 @@
-$('h2').addClass('hola');
-
-
+//array of channels
 var channels = ["freecodecamp", "storbeck", "terakilobyte", "habathcx","RobotCaleb","thomasballinger","noobs2ninjas","beohoff", 'brunofin', 'comster404', 'ESL_SC2', 'summit1g'];
 
 //For each channel
@@ -64,9 +62,11 @@ $.each(channels,function(index, el) {
   });
 });
 
+
+//keep track of currentPage
 var currentPage = 'all';
 
-
+//Filter Sections
 $('body').on('click', '.nav-all', function () {
 
   if (currentPage === 'online' || currentPage === 'offline') {
