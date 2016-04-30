@@ -55,6 +55,25 @@ header
     h2
       margin: 0
       color: #2E9032
+    h2.offline
+      color: #CE3737
     span
       color: #6B6B6B
       font-size: .9em
+
+.hidden
+  overflow: hidden
+  position: absolute
+  height: 0px
+.show
+  overflow: auto
+  position: static
+  height: auto
+
+@media (max-width: 561px)
+  header
+    flex-direction: column
+    h1
+      text-align: center
+  h2
+    font-size: 1.2em
